@@ -1,4 +1,4 @@
-frontend_test/node_modules/
-frontend_test/.next/
+frontend/node_modules/
+frontend/.next/
 backend/node_modules/
 node_modules/
