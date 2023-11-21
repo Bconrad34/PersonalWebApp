@@ -39,6 +39,8 @@
   max-width: auto;
   margin: 0 auto;
   list-style: none;
+  flex-wrap: wrap;
+  padding: 0 20px;
 }
 
 .menu li {
@@ -46,6 +48,7 @@
   height: 50px;
   transition: background-position-x 0.9s linear;
   text-align: center;
+  flex: 1 0 60%;
 
   a {
     font-size: 22px;
@@ -74,8 +77,8 @@
   }
 }
 
-@media screen {
-  .menu .name {
-    text-align: center;
+@media (min-width: 768px) {
+  .menu li {
+    flex: 1 0 auto; /* On larger screens, the items can be their natural width */
   }
 }
