@@ -36,7 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 720px;
+  max-width: auto;
   margin: 0 auto;
   list-style: none;
 }
