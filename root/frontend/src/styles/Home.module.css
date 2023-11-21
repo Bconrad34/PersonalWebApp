@@ -73,3 +73,9 @@
     background-position-x: 390px;
   }
 }
+
+@media screen {
+  .menu .name {
+    text-align: center;
+  }
+}
